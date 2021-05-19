@@ -17,7 +17,7 @@ pipeline {
     stage('GenerarJAR') {
       steps {
         echo "Estoy  generando el JAR del proyecto"
-        sh './mvnw package'
+        sh './mvnw packae'
              }
       post {
     	     failure {
